@@ -25,7 +25,7 @@ SECRET_KEY = 'ty1kx!fw%=9(0z$ix4!@8%9x_v*$90$%j3y2=o)i4iykzpn9wj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['healthbest-api.herokuapp.com']
 
 
 # Application definition
