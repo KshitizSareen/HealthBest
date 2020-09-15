@@ -13,4 +13,4 @@ class UserSerializer(serializers.HyperlinkedModelSerializer):
 class DiseaseSerialzer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model=Diseases
-        fields=['url','id','title']
+        fields=['url','id','title','symptoms']
